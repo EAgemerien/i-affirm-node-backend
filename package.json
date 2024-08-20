@@ -1,0 +1,27 @@
+{
+  "name": "iaffirm",
+  "version": "1.0.0",
+  "description": "i-affirm backend app, created with the Express framework built on NodeJS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "prod": "node ./src/server.js"
+  },
+  "keywords": [
+    "Node-js",
+    "Express-js",
+    "MySQL",
+    "API"
+  ],
+  "author": "Emmanuel Agemerien",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
